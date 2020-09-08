@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nova Mono', monospace;
+    background: url("../img/sayagata-400px.png");
+}
+
+header {
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border: 0px solid transparent;  
+    color: #ffffff;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#container {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    box-shadow: 2px 2px 20px #000;
+}
+
+.centerAlign {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#timer, #moves {
+    margin: 5px;
+    padding: 5px 10px;    
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.3);
+    font-size: 20px;
+    float: right;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.box {
+    position: absolute;
+    height: 99px;
+    width: 99px;
+    background-color: rebeccapurple;
+    text-align: center; 
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.boxBlank {
+    cursor: auto;
+    opacity: 0;
+}
+
+.boxText {
+    float: right;
+    color: #fff;
+    padding: 10px;
+    pointer-events: none;
+    text-shadow: 2px 2px 5px #000;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;  
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.btn {
+    font-family: 'Nova Mono', monospace;
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border: 0px solid transparent;  
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
